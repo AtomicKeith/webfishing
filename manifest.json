@@ -1,0 +1,59 @@
+{
+    "name": "Stardew Valley Checklist",
+    "short_name": "SV Checklist",
+    "description": "Stardew Valley Checklist",
+    "lang": "en",
+    "start_url": "https://destructiveburn.com/StardewValley/",
+	"scope": "https://destructiveburn.com/StardewValley/",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#a44608",
+    "background_color": "#efaf6a",
+    "icons": [
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/72x72.png?v=11",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/96x96.png?v=11",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/128x128.png?v=11",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/144x144.png?v=11",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/152x152.png?v=11",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/192x192.png?v=11",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/256x256.png?v=11",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/384x384.png?v=11",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "https://destructiveburn.com/StardewValley/img/manifest/512x512.png?v=11",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+	]
+}
