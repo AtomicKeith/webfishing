@@ -1,0 +1,173 @@
+/*-<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>->
+GDPR Privacy Notice
+<-<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>|<>-*/
+/*Font White*/
+.sfw {
+    color: #fff;
+}
+/*Button Dark Blue*/
+.sbdb {
+    background: #0B0F24;
+}
+/*Button Dark Blue Hover*/
+.sbdb:hover {
+    background: #202848;
+}
+/*Button Blue*/
+.sbb {
+    background: #2e375c;
+}
+/*Button Blue Hover*/
+.sbb:hover {
+    background: #202848;
+}
+/*Privacy Notice Container*/
+.gdpr-container {
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+/*Privacy Notice Container Body*/
+.gdpr-body {
+    width: 640px;
+    margin: auto;
+    padding: 0 14px;
+    border: solid 1px #d9d9d9;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 3px solid #a44608;
+    border-left: 3px solid #c97c4b;
+    border-right: 3px solid #7f3a17;
+    border-bottom: 3px solid #63262a;  
+    background-color: #eba866eb;
+}
+/*Privacy Notice Container Body Center*/
+.gdpr-flex {
+    display: flex;
+    align-items: center;
+}
+/*Privacy Notice Container Body Text*/
+.gdpr-body p, .gdpr-body a {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+/*Privacy Notice Cookie Icon*/
+.gdpr-image {
+    width: 50px;
+    margin-right: 5px;
+}
+/*Privacy Notice Button Choice*/
+.gdpr-center {
+    display: flex;
+    margin: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+/*Privacy Notice Selector Header*/
+.gdpr-tab-sel-header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*Privacy Notice Buttons*/
+.gdpr-body button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+/*Privacy Notice Selector Header*/
+.gdpr-tab-sel-header button {
+    width: 100%;
+    margin: 1px;
+}
+/*Privacy Notice Bottom Buttom Container*/
+.gdpr-bbtn {
+    padding-bottom: 5px;
+}
+/*Privacy Notice Bottom Buttom Or Text*/
+.gdpr-bbtn p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*Privacy Notice Tablinks P*/
+.GDPR_tablinks p {
+    display: block;
+    margin-block-end: 1em;
+}
+/*Privacy Notice Buttons Checkbox Position*/
+.cookie-checkbox {
+	margin-bottom:10px;
+}
+/*Bounce*/
+.gdpr-image {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@media screen and (max-width: 665px) {
+.gdpr-body{
+    width: 98%;
+}
+}
+/*Privacy Notice Scroll Height Limiter*/
+@media screen and (max-height: 520px) {
+.gdpr-scroll{
+    height: 200px;
+    overflow-y: scroll;
+}
+}
+@media screen and (max-width: 430px) {
+.gdpr-scroll{
+    height: 200px;
+    overflow-y: scroll;
+}
+.cookie-checkbox button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
+@media screen and (max-width: 355px) {
+.gdpr-flex {
+    width: 100%;
+    align-items: unset;
+    flex-direction: column;
+}
+.gdpr-flex button{
+    margin-bottom:5px;
+}
+.gdpr-or{
+	display:none;
+}
+.gdpr-image {
+    display: block;
+    margin: 10px auto;
+    margin-bottom: -15px;
+}
+}
+/*Privacy Notice Scroll Height Limiter*/
+@media screen and (max-height: 300px) {
+.gdpr-scroll{
+    height: 150px;
+    overflow-y: scroll;
+}
+}
+@media screen and (max-width: 232px) {
+.gdpr-tab-sel-header {
+    flex-direction: column;
+}
+}
