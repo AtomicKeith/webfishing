@@ -202,7 +202,7 @@ let snowfallTimeout;
 
 function createSnowflake() {
     const snowflake = document.createElement("img");
-    snowflake.src = "https://destructiveburn.com/StardewValley/img/gold.webp";
+    snowflake.src = "https://atomickeith.github.io/webfishing/img/gold.webp";
     snowflake.className = "snowflake";
     snowflake.style.left = Math.random() * window.innerWidth + "px";
     const delay = Math.random() * 5; // generate a random delay value between 0 and 5 seconds
@@ -240,10 +240,10 @@ image.addEventListener("click", () => {
 var hour = new Date().getHours();
 if (hour >= 8 && hour < 20) {
     document.body.classList.add("daytime");
-    document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-l.webp')";
+    document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-l.webp')";
     document.querySelector(".mtb").innerHTML = "&#9790;";
 } else {
-    document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-d.webp')";
+    document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-d.webp')";
     document.querySelector(".mtb").innerHTML = "&#9728;";
 }
 
@@ -256,11 +256,11 @@ function toggleTheme() {
 
     if (localStorage.getItem("theme") === "day") {
         document.body.classList.add("daytime");
-        document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-l.webp')";
+        document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-l.webp')";
         document.querySelector(".mtb").innerHTML = "&#9790;";
     } else {
         document.body.classList.remove("daytime");
-        document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-d.webp')";
+        document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-d.webp')";
         document.querySelector(".mtb").innerHTML = "&#9728;";
     }
 }
@@ -270,11 +270,11 @@ function resetTheme() {
     var hour = new Date().getHours();
     if (hour >= 8 && hour < 20) {
         document.body.classList.add("daytime");
-        document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-l.webp')";
+        document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-l.webp')";
         document.querySelector(".mtb").innerHTML = "&#9790;";
     } else {
         document.body.classList.remove("daytime");
-        document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-d.webp')";
+        document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-d.webp')";
         document.querySelector(".mtb").innerHTML = "&#9728;";
     }
 }
@@ -282,11 +282,11 @@ function resetTheme() {
 // check if theme is set in local storage
 if (localStorage.getItem("theme") === "day") {
     document.body.classList.add("daytime");
-    document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-l.webp')";
+    document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-l.webp')";
     document.querySelector(".mtb").innerHTML = "&#9790;";
 } else if (localStorage.getItem("theme") === "night") {
     document.body.classList.remove("daytime");
-    document.body.style.backgroundImage = "url('https://destructiveburn.com/StardewValley/img/stardewbackground-d.webp')";
+    document.body.style.backgroundImage = "url('https://atomickeith.github.io/webfishing/img/stardewbackground-d.webp')";
     document.querySelector(".mtb").innerHTML = "&#9728;";
 }
 /*
